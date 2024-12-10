@@ -36,7 +36,8 @@ public class Restaurante {
         return nuevaMesa;
     }
     
-    
+
+    //BUSCO la mesa libre por columna.
     private int buscarMesaLibre(AmbienteDeseado ambienteBuscado){
         int j = 0;
         int posic = -1;
